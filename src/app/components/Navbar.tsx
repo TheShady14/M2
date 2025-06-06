@@ -150,18 +150,7 @@ export default function Navbar() {
               {/* CTA Button */}
               <Link
                 href="/get-in-touch"
-                className="bg-white border-2 border-indigo-500 text-indigo-500 px-6 py-2.5 rounded-full text-sm font-medium hover:bg-indigo-500 hover:text-white transition-all duration-300 hover:shadow-md"
-                style={{ borderColor: "#7757EE", color: "#7757EE" }}
-                onMouseEnter={(e) => {
-  const target = e.target as HTMLButtonElement;
-  target.style.backgroundColor = "#7757EE";
-                  target.style.color = "white";
-                }}
-                onMouseLeave={(e) => {
-  const target = e.target as HTMLButtonElement;
-  target.style.backgroundColor = "";
-                  target.style.color = "white";
-                }}
+                className="bg-white border-2 text-sm font-medium px-6 py-2.5 rounded-full transition-all duration-300 hover:shadow-md border-[#7757EE] text-[#7757EE] hover:bg-[#7757EE] hover:text-white"
               >
                 Get in touch
               </Link>
